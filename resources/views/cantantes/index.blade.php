@@ -33,7 +33,7 @@
     </thread>
     <tbody>
         @foreach ($cantantes as $cantante)
-        <<tr>
+        <tr>
             <td>{{ $cantante->id }}</td>
             <td>{{ $cantante->name }}</td>
             <td>{{ $cantante->lastName }}</td>
